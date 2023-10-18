@@ -1,0 +1,306 @@
+body{
+    background-color: black;
+}
+.nav{
+    background-image: linear-gradient(#474e37, #474e37, #6d7c50, #6d7c50, #6d7c50, #2b311f);
+}
+.nav-list ul li a img{
+    height: 2rem;
+    width: 100%;
+}
+.logo-container img{
+    max-width: 30rem;
+    width: 90%;
+}
+.Hero-sec{
+    box-shadow: 0px -20px 50px 10px black;
+}
+.hero-img{
+    flex: 1.1;
+}
+.hero-details{
+    flex: 1;
+}
+.after-effect{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-bottom-left-radius: 10px;
+    border-left:1px solid white ;
+    border-bottom:1px solid white ;
+}
+.hero-brands img{
+    height: 25px;
+    width: 20px;
+}
+.vehicle-card-title img{
+    height: 1.7rem;
+}
+.vehicle-card-btn button{
+    background: linear-gradient(#6d7c50, #474e37);
+    border: 1px solid transparent;
+}
+.vehicle-card-btn button:hover{
+    background: transparent;
+    border: 1px solid #6d7c50;
+    color: #6d7c50 !important;
+}
+.vehicle-cards-sm img{
+    width: 100%;
+    height: 100%;
+}
+.flotte_card{
+    width: 19.5rem;
+}
+.flotte_card_text{
+    background-color: #6d7c50;
+}
+.card_arrow{
+    flex: 1;
+}
+.wrapper{
+    background-color: black;
+}
+.box{
+    background-color: #6d7c50;
+}
+.box1{
+    background: linear-gradient(#6d7c50, #474e37);
+}
+.box img{
+    width:100px;
+}
+.img-wheel{
+    width: 80px !important;
+}
+.box-btn button{
+    background: linear-gradient(#6d7c50, #474e37);
+    letter-spacing: 2.5px;
+    border: 1px solid #6d7c50;
+}
+
+/* style of form */
+.form input{
+    background-color: #6d7c50;
+    border:1px solid #6d7c50;
+    outline: none;
+    margin: 4px 2px;
+}
+.form .form-input{
+ width: 99.5%;
+}
+.form input::placeholder{
+    color: #303622;
+    font-weight: bold;
+}
+.form .form-textarea{
+    width: 99.5%;
+    padding-top: 9rem !important;
+}
+.btn-head{
+    width: 99.5%;
+}
+.form-btn{
+    background-color: #505c36ea;
+    border: 1px solid #5e6b41;
+    padding-left: 5rem !important;
+} 
+.logo-para p{
+    letter-spacing: 2px;
+}
+.footer-navs ul li{
+    list-style-type: none;
+}
+.footer-navs ul li a{
+    text-decoration: none;
+    color: #6d7c50;
+}
+.footer-menus{
+    display: flex;
+    justify-content: end;
+}
+.footer-icons a{
+    color: #6d7c50;
+}
+.slick-prev {
+    
+        display: none !important;
+    }
+
+@media screen and (max-width:400px){
+    .box-top{
+        margin-top: 0px !important;
+    }
+    .box{
+        padding: 4px !important;
+    }
+    .box img{
+        width: 70px;
+    }
+    .box h3, h4, h5{
+        font-size: 14px !important;
+    }
+    .box p{
+        font-size: 10px;
+    }
+    .box h3{
+        margin-top: 8px;
+    }
+    .box span i{
+        font-size: 8px;
+    }
+    .img-wheel{
+        padding: 0px !important;
+    }
+    .icon-heading{
+        margin-top: 10px;
+    }
+    .logo-para p{
+        font-size: 5px !important;
+    }
+}
+@media screen and (max-width:992px){
+    .brand-img img{
+        width: 50% !important;
+    }
+    .brand-img h1{
+        font-size: 20px;
+    }
+    .brand-para p{
+        font-size: 15px !important;
+    }
+    .footer-menus{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .footer-menus li a{
+        font-size: 12px !important;
+    }
+    .footer-icons{
+        text-align: center;
+    }
+}
+@media screen and (max-width:600px) {
+    .brand-img h1{
+        font-size: 11px;
+    }
+    .brand-para p{
+        font-size: 11px !important;
+    }
+    .logo-image img{
+        width: 50% !important;
+    }
+    .logo-para p{
+        font-size: 12px;
+    }
+    .footer-div{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width: 768px) {
+    .nav-list ul li a img{
+        height: 1rem;
+    }
+    .nav-list ul li a h4{
+        font-size: 1rem;
+    }
+    .hero-container .hero-details h1{
+        font-size: medium;
+        margin-bottom: 0px !important;
+    }
+    .hero-details{
+        margin-top: 10px !important;
+    }
+    .rating-star{
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .hero-container .rating-star i{
+        font-size: small;
+    }
+    .hero-container .rating-star h2{
+        font-size: small;
+        margin-left: 5px !important;
+        margin-top: 3px !important;
+    }
+    .after-effect{
+        height: 1.5rem;
+        width: 1.5rem;
+        border-bottom-left-radius: 10px;
+        border-left:1px solid white ;
+        border-bottom:1px solid white ;
+    }
+    .hero-inner-data{
+        margin-top: 5px !important;
+    }
+    .hero-brands img{
+        height: 10px;
+        width: 10px;
+    }
+    .hero-brands h5{
+        font-size: small;
+    }
+    .Price{
+        margin-top: 10px !important;
+    }
+    .vehicle-cards-lg{
+        display: none;
+    }
+    .vehicle-cards-sm{
+        display: block !important;
+    }
+    .vehicle-cards-head h2{
+        text-align: center;
+    }
+    .small-none{
+        display: none !important;
+    }
+    .card_text h5{
+        font-size: small;
+    }
+    .card_text small{
+        font-size: x-small;
+    }
+    .card_main small{
+        font-size: x-small;
+    }
+    .card_main div i{
+        font-size: x-small;
+    }
+    .Flotte-card-container{
+        flex-wrap: nowrap !important;
+    }
+    .flotte_card{
+        width: 12rem;
+    }
+    .card_arrow i{
+        font-size:  small;
+    }
+    .flotte_card_text{
+        height: 5rem;
+        align-items: center;
+    }
+    .margin{
+        margin-bottom: 1rem;
+    }
+    .flotte-card-img img{
+        height: 8rem;
+    }
+    .height-100{
+        height: 100%;
+    }
+    .slick-slider{
+        width: 80% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .slick-next{
+        right: -30px !important;
+        top: 0px !important;
+    }
+}
+
+.slick-next:before {
+    content: '\00BB';
+    font-size: xx-large;
+}
